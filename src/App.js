@@ -1,3 +1,4 @@
+import AddFocus from "./components/AddFocus";
 import Debounce from "./components/Debounce";
 import LongPress from "./components/LongPress";
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <Debounce />
       <LongPress />
+      <AddFocus />
     </>
   );
 };
